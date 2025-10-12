@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+This a personal website of Aashish S
 
-Template Name: FolioOne
-Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Created by using HTML,CSS,JavaScrip and libreries like JQuery and Bootstrap
+
