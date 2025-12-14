@@ -9,7 +9,7 @@ The site is built with **HTML**, **CSS**, **JavaScript**, and libraries like **B
 
 ## 🔗 Live Demo
 
-- **Custom Domain :** https://aashishs.life/
+- **Custom Domain :** https://aashish79947.github.io/Aashish-s-website/
 
 ---
 
