@@ -25,7 +25,7 @@ This project represents my **starting point in web development**.
 ## 🔗 Live Demo
 
 - **Website:**  
-  https://aashish79947.github.io/Aashish-s-website/
+  https://aashishs.life/
 
 ---
 
