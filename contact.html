@@ -121,9 +121,10 @@
               <h3>Get In Touch</h3>
               <p>Got a project, question, or just want to say hi?</p>
 
-              <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
-                <!-- Replace with your actual Access Key -->
-                <input type="hidden" name="access_key" value="37ef9718-8fa8-4690-8d99-114057a977a1">
+              <form id="contact-form" action="https://formsubmit.co/aashishpravitha@gmail.com" method="POST"
+                class="contact-form-main">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
 
                 <div class="row gy-4">
 
@@ -136,7 +137,7 @@
                   </div>
 
                   <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    <input type="text" class="form-control" name="_subject" placeholder="Subject" required="">
                   </div>
 
                   <div class="col-12">
@@ -144,13 +145,7 @@
                   </div>
 
                   <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
                     <button type="submit" class="btn">Send Message</button>
-                    <!-- Captcha hidden field -->
-                    <input type="hidden" name="_captcha" value="false">
                   </div>
 
                 </div>
@@ -197,7 +192,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>

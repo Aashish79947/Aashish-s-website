@@ -195,45 +195,8 @@
   });
 
   /**
-   * AJAX Contact Form
+   * AJAX Contact Form handling has been removed to allow standard form submission.
    */
-  const contactForm = document.getElementById('contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      const loading = this.querySelector('.loading');
-      const errorMessage = this.querySelector('.error-message');
-      const sentMessage = this.querySelector('.sent-message');
-
-      loading.style.display = 'block';
-      errorMessage.style.display = 'none';
-      sentMessage.style.display = 'none';
-
-      const formData = new FormData(this);
-
-      fetch("https://formsubmit.co/ajax/aashishpravitha@gmail.com", {
-        method: "POST",
-        body: formData
-      })
-        .then(response => response.json())
-        .then(data => {
-          loading.style.display = 'none';
-          if (data.success === "true" || data.success === true) {
-            sentMessage.style.display = 'block';
-            this.reset();
-          } else {
-            throw new Error(data.message || 'Form submission failed and no error message returned from: ' + action);
-          }
-        })
-        .catch((error) => {
-          loading.style.display = 'none';
-          errorMessage.innerHTML = "An error occurred while sending your message. Please try again later.";
-          errorMessage.style.display = 'block';
-          console.error('Error:', error);
-        });
-    });
-  }
 
   /**
    * Initiate glightbox
